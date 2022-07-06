@@ -1,5 +1,5 @@
-source: https://github.com/FIWARE-Ops/marinera
-release: demo
+source: https://github.com/sdcloudy/marinera
+release: fiware
 destination_namespace: &destination demo
 branch: &branch main
 secretsEnabled: &secretsEnabled false
