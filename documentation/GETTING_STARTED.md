@@ -15,7 +15,7 @@ Since this repository concentrates on deploying the platform, we require the und
     - [FIWARE installation documentation](https://github.com/FIWARE-Ops/fiware-gitops#4-install-argocd) - when using this, make sure to apply the changes described in [Prepare for namespaced-deployments](https://github.com/FIWARE-Ops/fiware-gitops#5-prepare-argocd-for-namespaced-deployments)-Alternative 
 - [OpenShift CLI](https://docs.openshift.com/container-platform/4.9/cli_reference/openshift_cli/getting-started-cli.html) installed - see [installation documentation](https://docs.openshift.com/container-platform/4.9/cli_reference/openshift_cli/getting-started-cli.html#installing-openshift-cli)
 - [Helm](https://helm.sh/docs/intro/install/) binary installed.
-- [Sealed Secrets Controller](https://github.com/bitnami-labs/sealed-secrets#helm-chart) deployed and [Kubeseal](https://github.com/bitnami-labs/sealed-secrets/releases) binary installed. (Optional, only if sealed secrets)
+- [Sealed Secrets Controller](https://github.com/bitnami-labs/sealed-secrets#helm-chart) deployed and [Kubeseal](https://github.com/bitnami-labs/sealed-secrets/releases) binary installed. (Optional, only if sealed secrets used for demos you likely will use the OpenShift admin account)
 - [Openshift Logging](./LOGGING.md) installed and configured.
 - [Openshift User Workload Monitoring](./MONITORING.md) enabled.
 

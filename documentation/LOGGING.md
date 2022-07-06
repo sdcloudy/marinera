@@ -41,9 +41,9 @@ To deploy Openshift-Logging in the cluster follow the instructions in the [offic
 
 ## 2. Parsing JSON logs
 
-The most of the platform components have been deployed to write logs in json format. Openshift Logging can parse JSON logs into a structured object and forward them to either OpenShift Logging-managed Elasticsearch.
+The most of the platform components have been deployed to write logs in json format. Openshift Logging can parse JSON logs into a structured object and forward them to either OpenShift Logging-managed Elasticsearch or another logging target.
 
-You can do that using the Log Forwarding API. This is an examplet to do the parsing:
+You can do that using the Log Forwarding API. This is an examplet to do the parsing and is not required if you want to just deploy this application as a demo environment:
 
 ```yaml
 apiVersion: logging.openshift.io/v1
