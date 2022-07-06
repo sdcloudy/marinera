@@ -1,6 +1,6 @@
 source: https://github.com/sdcloudy/marinera
 release: fiware
-destination_namespace: &destination demo
+destination_namespace: &destination fiware
 branch: &branch main
 secretsEnabled: &secretsEnabled false
 host: &host
