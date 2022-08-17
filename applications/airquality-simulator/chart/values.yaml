@@ -79,35 +79,35 @@ config:
     fiwareServicePath: "/data"
     aqSimulations:
       - id: "urn:ngsi:AirQualityObserved:simulated-1"
-        longi: -1.2718119
-        lat: 38.0770502
+        longi: 16.376371051476063
+        lat: 48.21219241380924
         sampleInterval: 30
         age: 10
-        name: "HOP Ubiquitous"
+        name: "Rotenturmstrasse (simulated data!)"
       - id: "urn:ngsi:AirQualityObserved:simulated-2"
-        longi: -1.278310158693678
-        lat: 38.07828651005188
+        longi: 16.372272636085363
+        lat: 48.213858200505335
         sampleInterval: 30
         age: 10
-        name: "Parque de la Constitución"
+        name: "Rudolfspark (simulated data!)"
       - id: "urn:ngsi:AirQualityObserved:simulated-3"
-        longi: -1.2748824349593826
+        longi: 48.21179919441715
         lat: 38.077781381338404
         sampleInterval: 30
         age: 10
-        name: "Parque Juan Carlos I"
+        name: "Urania (simulated data!)"
       - id: "urn:ngsi:AirQualityObserved:simulated-4"
-        longi: -1.26895422283374
-        lat: 38.079269292527684
+        longi: 16.370893859317466
+        lat: 48.21887883041262
         sampleInterval: 30
         age: 10
-        name: "Museo de arte moderno La Conservera"
+        name: "Augartenbrücke (simulated data!)"
       - id: "urn:ngsi:AirQualityObserved:simulated-5"
-        longi: -1.271990770471196
-        lat: 38.07943615142072
+        longi: 16.390232412523225
+        lat: 48.21778981364483
         sampleInterval: 30
         age: 10
-        name: "Plaza Nueva"
+        name: "Praterstern (simulated data!)"
 
 ## configuration for the init-containers 
 init:
@@ -152,4 +152,4 @@ init:
       # -- New username to create in Keycloak for the Air Quality app 
       user: airqualityapp-user
       # -- Password for the new username to create in Keycloak for the Air Quality app 
-      password: airqualityapp    
+      password: airqualityapp
