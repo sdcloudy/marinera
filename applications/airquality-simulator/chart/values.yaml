@@ -108,12 +108,6 @@ config:
         sampleInterval: 30
         age: 10
         name: "Praterstern simulated data"
-      - id: "urn:ngsi:AirQualityObserved:simulated-6"
-        longi: -1.2718119
-        lat: 38.0770502
-        sampleInterval: 30
-        age: 10
-        name: "HOP Ubiquitous"
 
 ## configuration for the init-containers 
 init:
