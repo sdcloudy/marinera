@@ -83,31 +83,31 @@ config:
         lat: 48.21219241380924
         sampleInterval: 30
         age: 10
-        name: "Rotenturmstrasse (simulated data!)"
+        name: "Rotenturmstrasse simulated data"
       - id: "urn:ngsi:AirQualityObserved:simulated-2"
         longi: 16.372272636085363
         lat: 48.213858200505335
         sampleInterval: 30
         age: 10
-        name: "Rudolfspark (simulated data!)"
+        name: "Rudolfspark simulated data"
       - id: "urn:ngsi:AirQualityObserved:simulated-3"
         longi: 48.21179919441715
         lat: 38.077781381338404
         sampleInterval: 30
         age: 10
-        name: "Urania (simulated data!)"
+        name: "Urania simulated data"
       - id: "urn:ngsi:AirQualityObserved:simulated-4"
         longi: 16.370893859317466
         lat: 48.21887883041262
         sampleInterval: 30
         age: 10
-        name: "Augartenbrücke (simulated data!)"
+        name: "Augartenbrücke simulated data"
       - id: "urn:ngsi:AirQualityObserved:simulated-5"
         longi: 16.390232412523225
         lat: 48.21778981364483
         sampleInterval: 30
         age: 10
-        name: "Praterstern (simulated data!)"
+        name: "Praterstern simulated data"
 
 ## configuration for the init-containers 
 init:
