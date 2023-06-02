@@ -9,7 +9,7 @@ mongodb:
     enabled: false
   resources:
     limits:
-      cpu: 500m
+      cpu: "1"
       memory: 1Gi
     requests:
       cpu: 50m
@@ -33,7 +33,7 @@ mongodb:
       marinera/product: mongodb
     resources:
       limits:
-        cpu: 500m
+        cpu: "1"
         memory: 1.5Gi
       requests:
         cpu: 50m
@@ -50,8 +50,8 @@ mongodb:
       enabled: true
     resources:
       limits:
-        cpu: 200m
-        memory: 500Mi 
+        cpu: "1"
+        memory: 1Gi 
       requests:
         cpu: 50m 
         memory: 50Mi 
