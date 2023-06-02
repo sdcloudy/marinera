@@ -17,7 +17,11 @@ mongodb:
   persistence:
     enabled: true
     size: 8Gi
+  readinessProbe:
+    timeoutSeconds: 60
   arbiter:
+    readinessProbe:
+      timeoutSeconds: 60
     podSecurityContext:
       enabled: false
     containerSecurityContext:
