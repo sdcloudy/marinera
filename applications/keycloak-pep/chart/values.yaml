@@ -18,10 +18,13 @@ route:
 resources:
   limits:
     cpu: 1
-    memory: 800Mi
+    memory: 1Gi
   requests:
     cpu: 50m
     memory: 300Mi
+
+readinessProbe:
+  timeoutSeconds: 60
 
 log:
   level: WARN
