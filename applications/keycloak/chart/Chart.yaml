@@ -20,7 +20,7 @@ maintainers:
     email: stefan.wiedemann@fiware.org
 dependencies:
 - name: keycloak
-  version: 8.0.0 
+  version: 13.0.3
   repository: https://charts.bitnami.com/bitnami
 
 
