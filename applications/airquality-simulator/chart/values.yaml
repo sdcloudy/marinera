@@ -109,35 +109,11 @@ config:
         age: 10
         name: "Praterstern simulated data"
       - id: "urn:ngsi:AirQualityObserved:simulated-6"
-        longi: -1.2718119
-        lat: 38.0770502
+        longi: 16.35853172442294
+        lat: 48.20366159087554
         sampleInterval: 30
         age: 10
-        name: "HOP Ubiquitous"
-      - id: "urn:ngsi:AirQualityObserved:simulated-7"
-        longi: -1.278310158693678
-        lat: 38.07828651005188
-        sampleInterval: 30
-        age: 10
-        name: "Parque de la Constitución"
-      - id: "urn:ngsi:AirQualityObserved:simulated-8"
-        longi: -1.2748824349593826
-        lat: 38.077781381338404
-        sampleInterval: 30
-        age: 10
-        name: "Parque Juan Carlos I"
-      - id: "urn:ngsi:AirQualityObserved:simulated-9"
-        longi: -1.26895422283374
-        lat: 38.079269292527684
-        sampleInterval: 30
-        age: 10
-        name: "Museo de arte moderno La Conservera"
-      - id: "urn:ngsi:AirQualityObserved:simulated-10"
-        longi: -1.271990770471196
-        lat: 38.07943615142072
-        sampleInterval: 30
-        age: 10
-        name: "Plaza Nueva"
+        name: "Museumsquartier simulated data"
 
 ## configuration for the init-containers 
 init:
