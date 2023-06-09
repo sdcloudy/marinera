@@ -28,8 +28,7 @@ image:
   pullPolicy: IfNotPresent
 
 # -- additional labels for the deployment, if required
-additionalLabels:
-  app.kubernetes.io/part-of=aq-simulator
+additionalLabels: { }
 # -- additional annotations for the deployment, if required
 additionalAnnotations: { }
 ## resource requests and limits, we leave the default empty to make that a concious choice by the user.
