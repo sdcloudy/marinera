@@ -47,6 +47,7 @@ Common labels
 */}}
 {{- define "airquality-simulator.labels" -}}
 app.kubernetes.io/name: {{ include "airquality-simulator.name" . }}
+app.kubernetes.io/part-of: {{ include "airquality-simulator.name" . }}
 helm.sh/chart: {{ include "airquality-simulator.chart" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- if .Chart.AppVersion }}
